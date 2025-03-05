@@ -22,7 +22,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 
 const router = createBrowserRouter([
-  {path:"/", element: <App/>},
+  {path:"/algowords/", element: <App/>},
   {path:"*", element: <NFP/>},
 
   {path:"/dashboard", element: <Dashboard/>},
@@ -40,6 +40,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider baseName="/algowords/" router={router}/>
+    <createBrowserRouter baseName="/algowords/">
+    <RouterProvider router={router}/>
+      </createBrowserRouter>
   </StrictMode>,
 )

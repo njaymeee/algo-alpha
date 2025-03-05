@@ -20,16 +20,16 @@ function Flowchart() {
 
     const QA = {
         Question1: "What is the key definition of a flowchart?",
-        Answer: "A",
-        MultipleAnswer: ["A. A diagram that represents a process, system or computer algorithm", "B. A diagram that represents a process, system or computer algorithm", "C. A diagram that represents a process, system or computer algorithm", "D. A diagram that represents a process, system or computer algorithm"],
+        Answer1: "A",
+        MultipleAnswer1: ["A. A diagram that represents a process, system or computer algorithm", "B. A diagram that represents a process, system or computer algorithm", "C. A diagram that represents a process, system or computer algorithm", "D. A diagram that represents a process, system or computer algorithm"],
         
         Questions2: "What are the types of flowchart?",
-        Answer: "C",
-        MultipleAnswer: ["A. Process Flowchart", "B. Swimlane Flowchart", "C. Workflow Diagram", "D. Data Flow Diagram"],
+        Answer2: "C",
+        MultipleAnswer2: ["A. Process Flowchart", "B. Swimlane Flowchart", "C. Workflow Diagram", "D. Data Flow Diagram"],
 
         Questions3: "What are the uses of flowchart?",
-        Answer: "B",
-        MultipleAnswer: ["A. To understand a process", "B. To improve a process", "C. To communicate a process", "D. To document a process"],
+        Answer3: "B",
+        MultipleAnswer3: ["A. To understand a process", "B. To improve a process", "C. To communicate a process", "D. To document a process"],
     };
 
     const handleClick = () => {
