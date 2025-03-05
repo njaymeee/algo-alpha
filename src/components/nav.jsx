@@ -11,7 +11,9 @@ const Nav = (props) => {
     return (
         <nav className="bg-[#50a5a5] p-4 font-[helvetica] flex justify-between items-center">
             <div className="flex item-center">
-                <h1 className="text-white text-center font-bold font-sans text-3xl">Algowords</h1>
+                <Link to={"/algowords/"}>
+                    <h1 className="text-white text-center font-bold font-sans text-3xl">Algowords</h1>
+                </Link>
             </div>
             <ul className="flex space-x-4">
                 <li className="cursor-pointer text-white hover:bg-blue-500 transition duration-300 ease-in-out p-2 rounded ml-5">

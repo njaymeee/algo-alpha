@@ -23,7 +23,7 @@ function App() {
               </Link>
             </div>
             <div className="md:w-1/2 mt-8 md:mt-0 md:ml-8">
-              <img src={"../src/assets/mindexpansion1.png"} alt="Algowords" className="w-100 h-auto object-cover" />
+              <img src={import.meta.env.BASE_URL + "../src/assets/mindexpansion1.png"} alt="Algowords" className="w-100 h-auto object-cover" />
             </div>
           </div>
         </main>
@@ -38,21 +38,21 @@ function App() {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-gray-100 border-b-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 hover:scale-105 hover:border-4 hover:border-blue-500">
-                <img src={"../src/assets/stackedbook1.png"} alt="Feature One" className="w-full h-fit object-cover mb-4" />
+                <img src={import.meta.env.BASE_URL + "../src/assets/stackedbook1.png"} alt="Feature One" className="w-full h-fit object-cover mb-4" />
                 <h3 className="text-2xl font-bold text-[#00ACAC] mb-4">Comprehension</h3>
                 <p className="text-gray-700 mb-4">Our library for Programming and English are full stacked, it accessible via separated ages.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-gray-100 border-b-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 hover:scale-105 hover:border-4 hover:border-blue-500">
-                <img src={"../src/assets/interconnectedbrain1.png"} alt="Feature Two" className="w-full h-fit object-cover mb-4" />
+                <img src={import.meta.env.BASE_URL + "../src/assets/interconnectedbrain1.png"} alt="Feature Two" className="w-full h-fit object-cover mb-4" />
                 <h3 className="text-2xl font-bold text-[#00ACAC] mb-4">Knowledge</h3>
                 <p className="text-gray-700 mb-4">Earn knowledge from learning new things.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-gray-100 border-b-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 hover:scale-105 hover:border-4 hover:border-blue-500">
-                <img src={"../src/assets/idealistic1.png"} alt="Feature Three" className="w-full h-fit object-cover mb-4" />
+                <img src={import.meta.env.BASE_URL + "../src/assets/idealistic1.png"} alt="Feature Three" className="w-full h-fit object-cover mb-4" />
                 <h3 className="text-2xl font-bold text-[#00ACAC] mb-4">Quizzes</h3>
                 <p className="text-gray-700 mb-4">Try challenging yourself by trying our quizzes in each lessons.</p>
               </div>
@@ -71,7 +71,7 @@ function App() {
         <div className="flex flex-wrap -mx-4">
       <div className="w-full md:w-1/2 px-4 mb-8">
         <div className="bg-white border-b-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 hover:scale-105 hover:border-4 hover:border-blue-500">
-          <img src={"./src/assets/computerlogo 1.svg"} alt="Feature Four" className="w-full h-32 object-cover mb-4" />
+          <img src={import.meta.env.BASE_URL + "./src/assets/computerlogo 1.svg"} alt="Feature Four" className="w-full h-32 object-cover mb-4" />
           <h3 className="text-2xl font-bold text-[#00ACAC] mb-4">Programming (for Grade 8)</h3>
           <p className="text-gray-700 mb-4">Programming is another level, but we will not tacle the coding instead, we are going to tought you "how to use a Flowchart".</p>
 
@@ -82,7 +82,7 @@ function App() {
       </div>
       <div className="w-full md:w-1/2 px-4 mb-8">
         <div className="bg-white border-b-white p-6 rounded-lg shadow-lg text-center transform transition duration-500 hover:scale-105 hover:border-4 hover:border-blue-500">
-          <img src={"./src/assets/literaturelogo 1.svg"} alt="Feature Five" className="w-full h-32 object-fit mb-4" />
+          <img src={import.meta.env.BASE_URL + "./src/assets/literaturelogo 1.svg"} alt="Feature Five" className="w-full h-32 object-fit mb-4" />
           <h3 className="text-2xl font-bold text-[#00ACAC] mb-4">English (for Grade 9)</h3>
           <p className="text-gray-700 mb-4"> Want to be a writer or a journalist?, you can start your journey here.</p>
           <Link to="/english"><Button text={"Start Here"} /></Link>
