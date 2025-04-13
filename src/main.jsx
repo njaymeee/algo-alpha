@@ -22,7 +22,7 @@ import Literacy from './pages/literary.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
-  {path:"/algowords", element: <App/>},
+  {path:"/", element: <App/>},
   {path:"*", element: <NFP/>},
 
   {path:"/dashboard", element: <Dashboard/>},
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <createBrowserRouter baseName="/algowords">
+    <createBrowserRouter baseName="/">
     <RouterProvider router={router}/>
       </createBrowserRouter>
   </StrictMode>
