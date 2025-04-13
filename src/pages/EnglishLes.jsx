@@ -10,10 +10,10 @@ const EnglishLes = () => {
     const EnglishItems = [
         {lesson: 1, title: "Sound Devices", description: "Rhyme, Rythmn, and more.",  img: "", Link:"/sounddevices"},
         {lesson: 2, title: "Figures of Speech",description: "An phrase or word that has different meaning from its literal definition",  img: "", Link:"/figurespeech"},
-        {lesson: 3, title: "Literature",description: "More on stories and Poetry",  img: "", Link:"/literacy"},
-        {lesson: 4, title: "Facts vs. Opinions",description: "Defining the facts and Opinions",  img: "",},
-        {lesson: 5, title: "Modals",description: "Verbs that help indicate possibility ability, obligation, and more.",  img: "",},
-        {lesson: 6, title: "Zero to Second Conditionals",description: "The conditionals: Real, Unreal, Hypotheticals.",  img: "",},
+        {lesson: 3, title: "Literature",description: "More on stories and Poetry",  img: "", Link:"/literacy", Link:"/figurespeech"},
+        {lesson: 4, title: "Facts vs. Opinions",description: "Defining the facts and Opinions",  img: "", Link:"/figurespeech"},
+        {lesson: 5, title: "Modals",description: "Verbs that help indicate possibility ability, obligation, and more.",  img: "", Link:"/figurespeech"},
+        {lesson: 6, title: "Zero to Second Conditionals",description: "The conditionals: Real, Unreal, Hypotheticals.",  img: "", Link:"/figurespeech"},
     ]
 
     return (
@@ -26,7 +26,7 @@ const EnglishLes = () => {
                     <div className="flex flex-wrap">
                         {EnglishItems.map((item) => (
                             <div key={item.lesson} className="w-1/2 p-2">
-                                <Card img={item.img} header={item.title} paragraph={item.description} Link={items.Link} />
+                                <Card img={item.img} header={item.title} paragraph={item.description} Link={item.Link} />
                             </div>
                         ))}
                     </div>

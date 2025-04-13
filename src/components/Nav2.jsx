@@ -11,7 +11,6 @@ const Nav2 = (props) => {
     return (
         <nav className="bg-blue-500 p-4 font-[helvetica] flex justify-between items-center sticky">
             <div className="mr-auto flex items-center">
-                <img src="../public/logofinal.svg" alt="Logo" className="h-10" />
                 <h1 className="text-white text-center font-bold font-sans text-3xl">ALGOWORDS</h1>
             </div>
             <ul className="flex space-x-4">
