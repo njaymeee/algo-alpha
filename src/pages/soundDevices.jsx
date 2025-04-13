@@ -16,23 +16,23 @@ function soundDevices() {
 
     const QA = {
         Question1: "Definition of Sound Devices",
-        Answer: "C",
+        Answer1: "C",
         Option: ["A. A device that produces sound", "B. A device that records sound", "C. Resources used by poets to convey and reinforce the meaning or experience of poetry through the skillful use of sound", "D. A device that plays sound"],
 
         Question2: "What is Alliteration?",
-        Answer: "A",
+        Answer2: "A",
         Option: ["A. The repetition of the same consonant sounds at the beginning of words that are in close proximity to each other", "B. The repetition of vowel sounds in nearby words", "C. The repetition of consonant sounds within or at the end of words in a phrase or sentence", "D. The use of words that imitate the sounds associated with the objects or actions they refer to"],
 
         Question3: "What is Assonance?",
-        Answer: "B",
+        Answer3: "B",
         Option: ["A. The repetition of the same consonant sounds at the beginning of words that are in close proximity to each other", "B. The repetition of vowel sounds in nearby words", "C. The repetition of consonant sounds within or at the end of words in a phrase or sentence", "D. The use of words that imitate the sounds associated with the objects or actions they refer to"],
 
         Question4: "What is the best examples of Consonance?",
-        Answer: "D",
+        Answer4: "D",
         Option: ["A. The repetition of the same consonant sounds at the beginning of words that are in close proximity to each other", "B. The repetition of vowel sounds in nearby words", "C. The repetition of consonant sounds within or at the end of words in a phrase or sentence", "D. The lumpy, bumpy road."],
 
         Question5: "Best Description of Onomatopoeia?",
-        Answer: "A",
+        Answer5: "A",
         Option: ["A. The use of words that imitate the sounds associated with the objects or actions they refer to", "B. The repetition of the same consonant sounds at the beginning of words that are in close proximity to each other", "C. The repetition of vowel sounds in nearby words", "D. The repetition of consonant sounds within or at the end of words in a phrase or sentence"],
     }
 

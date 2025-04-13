@@ -1,4 +1,3 @@
-import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 import Nav from '../components/nav.jsx';
 
@@ -15,7 +14,6 @@ const ProgLes = () => {
 
     return (
         <>
-            <Header/>
             <Nav/>
             <section className="flex flex-col items-center h-100vh">
                 <div className="w-3/4">

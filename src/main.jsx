@@ -6,6 +6,7 @@ import './index.css'
 import Dashboard from './pages/Dashboard.jsx';
 import App from './App.jsx';
 import NFP from './pages/NotFoundPage.jsx';
+import ContributorsPage from './pages/contributorsPage.jsx';
 
 import Programming from './pages/ProgLes.jsx';
 import English from './pages/EnglishLes.jsx';
@@ -20,12 +21,12 @@ import Literacy from './pages/literary.jsx'
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-
 const router = createBrowserRouter([
-  {path:"/algowords/", element: <App/>},
+  {path:"/algowords", element: <App/>},
   {path:"*", element: <NFP/>},
 
   {path:"/dashboard", element: <Dashboard/>},
+  {path:"/contributors", element: <ContributorsPage/>},
   {path:"/programming", element: <Programming/>,},
   {path:"/english", element: <English/>,},
   
@@ -40,8 +41,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <createBrowserRouter baseName="/algowords/">
+    <createBrowserRouter baseName="/algowords">
     <RouterProvider router={router}/>
       </createBrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )

@@ -13,9 +13,11 @@ function Flowchart() {
         SubTitle1: "What is Flowchart?",
         Article1: "A flowchart is a diagram that represents a process, system or computer algorithm. Flowcharts show the steps as boxes of various kinds, and their order by connecting them with arrows. Flowcharts are used in analyzing, designing, documenting or managing a process or program in various fields.",
         SubTitle2: "Types of Flowchart",
-        Article2: "1. Process Flowchart\n2. Swimlane Flowchart\n3. Workflow Diagram\n4. Data Flow Diagram\n5. Business Process Model and Notation (BPMN)\n6. Influence Diagram\n7. System Flowchart\n8. SDL Diagram\n9. Cross-Functional Flowchart\n10. IDEF Flowchart",
+        Article2: "These are the types of Flwochart. Process Flowchart\n2, Swimlane Flowchart\n3, Workflow Diagram\n4, Data Flow Diagram\n5, Business Process Model and Notation (BPMN)\n6. Influence Diagram\n7, System Flowchart\n8, SDL Diagram\n9, Cross-Functional Flowchart\n10, and IDEF Flowchart",
         SubTitle3: "Uses of Flowchart",
-        Article3: "1. To understand a process\n2. To improve a process\n3. To communicate a process\n4. To document a process\n5. To analyze a process\n6. To model a process\n7. To manage a process\n8. To document a process\n9. To improve a process\n10. To document a process",
+        Article3: "We use flowchart to understand a process\n2, to improve a process\n3. To communicate a process\n4, To document a process\n5, To analyze a process\n6, To model a process\n7, To manage a process\n8. To document a process\n9, To improve a process\n10, To document a process",
+
+        Images1: "",
     }
 
     const QA = {
@@ -59,6 +61,9 @@ function Flowchart() {
                     <h2 className="text-2xl font-bold">{Context.SubTitle3}</h2>
                     <p className="text-left">{Context.Article3}</p>
                 </div>
+            </section>
+            <section>
+
             </section>
             <div className="flex justify-center my-4 space-x-4">
                 <Button text={"Start Quiz"} callback={handleClick()} />

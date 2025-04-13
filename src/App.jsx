@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <>
-
       <div className="min-h-screen bg-gray-100">
         <Nav2/>
         <main className="flex flex-col items-center justify-center py-20">

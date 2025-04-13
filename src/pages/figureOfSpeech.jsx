@@ -1,5 +1,6 @@
 import Modals from "../components/quizmodal.jsx";
 import Button from "../components/button.jsx";
+import Header from "../components/Header.jsx"
 
 function FigureOfSpeech() {
     const QA = {
