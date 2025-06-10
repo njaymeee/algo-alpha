@@ -1,11 +1,10 @@
-**Algowords (Alpha)** is a free e-learning website open for all ages, with two separate subjects for Grade 8 and Grade 9. Our project started last February for our school purposes. The project was initially released (Beta) on March 14. For now, the Algowords will undergo significant maintenance after the release, returning to its alpha state.
-
+**Algowords (Alpha)** is a free e-learning website open to all ages, with two separate subjects for Grade 8 and Grade 9. Our project started last February for school purposes and was initially released (Beta) on March 14. On June 10, 2025, the Lead Developer of Algowords utterly canceled the project, and it will no longer be updated.
 **UPDATE**
-As for the update, the two developers became former contributors, except the Lead Developer; the only standing to maintain the project and open for anyone to use. Currently this still maintained, and it's only hope to raise the funds for organizations to help contribute to the community.
+Algowords has no standing developers to maintain the project itself. It will remain publicly open for anyone to improve.
 
 **Patch Note**
 
-As of June 10, 2025. V1.3 Alpha.
+As of June 10, 2025. V1.5 Alpha.
 
 Added Subscription.
 Fixed Minor bugs.
