@@ -2,3 +2,11 @@
 
 **UPDATE**
 As for the update, the two developers became former contributors, except the Lead Developer; the only standing to maintain the project and open for anyone to use. Currently this still maintained, and it's only hope to raise the funds for organizations to help contribute to the community.
+
+**Patch Note**
+
+As of June 10, 2025. V1.3 Alpha.
+
+Added Subscription.
+Fixed Minor bugs.
+
