@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './button.css';
 
 function Button(props, onClick) {
     const [isClicked, setIsClicked] = useState(false);

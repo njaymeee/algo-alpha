@@ -1,10 +1,11 @@
 import React from 'react';
 import {Nav2} from '../components/Nav2.jsx'
+import {Footer} from '../components/Footer.jsx'
 
 const AboutUs = () => {
     return (
         <>
-            <Nav2></Nav2>
+        <Nav2></Nav2>
           <div className="p-5 font-helvetica text-center">
             <h1 className="text-2xl font-bold">About Us</h1>
             <p className="mt-4 ">
@@ -17,6 +18,7 @@ const AboutUs = () => {
                 Thank you for choosing Algowords. We hope you enjoy your learning journey with us!
             </p>
         </div>
+        <Footer></Footer>
         </>
     );
 };

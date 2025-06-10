@@ -10,6 +10,7 @@ import ContributorsPage from './pages/contributorsPage.jsx';
 
 import Programming from './pages/ProgLes.jsx';
 import English from './pages/EnglishLes.jsx';
+import subscriptionPage from './pages/subscription.jsx';
 
 import Flowchart from './pages/Flowchart.jsx';
 
@@ -19,6 +20,8 @@ import SoundDevices from './pages/soundDevices.jsx';
 import FigureOfSpeech from './pages/figureOfSpeech.jsx';
 import Literacy from './pages/literary.jsx'
 
+// MAIN
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -27,6 +30,7 @@ const router = createBrowserRouter([
 
   {path:"/dashboard", element: <Dashboard/>},
   {path:"/contributors", element: <ContributorsPage/>},
+  {path:"/subscription", element: <subscriptionPage/>}, 
   {path:"/programming", element: <Programming/>,},
   {path:"/english", element: <English/>,},
   
@@ -37,6 +41,7 @@ const router = createBrowserRouter([
   {path:"/sounddevices", element: <SoundDevices/>},
   {path:"/figurespeech", element: <FigureOfSpeech/>},
   {path:"/literacy", element: <Literacy/>},
+  
 ]);
 
 createRoot(document.getElementById('root')).render(
